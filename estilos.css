@@ -1,0 +1,63 @@
+
+/* body{
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    /* outline: 1px red solid; */
+}
+
+/* Logo */
+
+.img-logo{
+    
+    max-width: 50px;
+    
+}
+
+/* Menú */ 
+
+nav{
+    
+    margin-left: 120px;
+}
+
+nav li{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block; /* Para que los textos del menu se queden horizontal */
+    margin: 0 0 0 15px; /* Margen a la izquierda de los li */
+}
+
+nav a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none; /* Quitar los subrayados de los enlaces */
+    color: black;
+    font-size: 14px;
+
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+    background-color: #0F0326;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.seccion{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.seccion-sombra{
+    background-color: #FFEAD0;
+}
+
+
