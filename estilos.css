@@ -1,14 +1,40 @@
 
-/* body{
+:root{
+    --azul: #0F0326;
+    --naranja: #FF9900;
+    --blanco: #F0EDEE;
+    --gris: #797D81;
+}
+body{
     font-family: 'Montserrat', sans-serif;
-} */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
 
+span{
+    font-weight: 600;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 20px;
     /* outline: 1px red solid; */
+}
+
+.texto{
+    color: black;
 }
 
 /* Logo */
@@ -22,8 +48,7 @@
 /* Menú */ 
 
 nav{
-    
-    margin-left: 120px;
+    margin-left: 120px;    
 }
 
 nav li{
@@ -33,6 +58,7 @@ nav li{
 }
 
 nav a{
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none; /* Quitar los subrayados de los enlaces */
@@ -43,21 +69,41 @@ nav a{
 
 button{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     padding: 5px;
     background-color: #0F0326;
     color: white;
     border: 0;
     border-radius: 5px;
 }
+button:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    background-color: #0F0326;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.2s;
+}
 
 .seccion{
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .seccion-sombra{
-    background-color: #FFEAD0;
+    background-color: #0F0326;
 }
 
-
+/* ----------------------------------------------------- Footer ----------------------------------------------------- */
+footer{
+    margin: 0;
+    padding: 25px;
+    background: var(--azul);
+    color: var(--blanco);
+    text-align: center;
+    
+}

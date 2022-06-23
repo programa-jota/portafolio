@@ -1,0 +1,33 @@
+.pasatiempos {
+    background: var(--blanco);    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.caja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    font-weight: 600;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.iconos-cuerpo{
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: var(--azul);
+}
+
+

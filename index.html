@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="escritura.css">
+    <link rel="stylesheet" href="/css/pasatiempos.css">
+    <link rel="stylesheet" href="/css/acerca-de-mi.css">
+    <link rel="stylesheet" href="/css/experiencia.css">
+    <link rel="stylesheet" href="/css/formacion.css">
+    <link rel="stylesheet" href="/css/contacto.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">    
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap" rel="stylesheet">
     <title>¡Hola! Soy Juan José</title>
+    <script src="https://kit.fontawesome.com/742fc71abe.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- HEADER -->
@@ -36,37 +42,162 @@
     </header>
 
 <!-- BANNER PRINCIPAL -->
-    <div class="banner-principal seccion" id="banner-principal">
+    <!-- <div class="banner-principal seccion" id="banner-principal">
         <p>Welcome!.<span>&#160;</span> </p>
+    </div>  -->
+<!-- ACERCA DE MI -->   
+    <div class="acerca-de-mi seccion" id="acerca-de-mi">
+        <div class="contenido">
+            <div class="titulo-sombra texto">
+                <h2 class="titulo-acerca-de-mi">
+                    ¡Hola! Persona interesada en mí.
+                </h2>
+            </div>
+            <div class="texto-cuerpo-sombra texto">
+                <p class="texto-acerca-de-mi">
+                    ¿Quieres saber más de <span>Juan José Cárdenas</span>?
+                    <br>
+                    <br>
+                    Bueno, llevo 24 años en este hermoso lugar llamado tierra. Soy un Colombiano amante de la tecnología, la programación, los gatos, aprender y la pizza de pepperoni con arequipe.
+                    <br>
+                    <br>
+                    Me gusta fijarme en los detalles y ser bastante autocritico en mis trabajos para poder entregar lo mejor de mí, creativo, bueno escuchando y con un apasionante gusto por mejorar siempre. Disfruto de la creación de productos digitales y espero que hagamos un increíble equipo.
+                </p>
+            </div>
+        </div>
+        <img src="imagenes/fotos/juanjo-removebg-preview.png" alt="Juan José" class="imagen-de-seccion">
     </div> 
-<!-- ACERCA DE MI -->
-    <div class="acerca-de-mi seccion seccion-sombra" id="acerca-de-mi">
-
-    </div> 
+    <div class="redes-container">
+        <ul>
+            <li> <a href="https://github.com/programa-jota" target="_blank"> <i class="fa-brands fa-github"></i> </a></li>
+            <li> <a href="https://web.facebook.com/juan.j.cardenas.16" target="_blank"> <i class="fa-brands fa-facebook-f"></i> </a></li>
+            <li> <a href="https://www.instagram.com/jotta_ca/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a></li>
+            <li> <a href="https://www.linkedin.com/in/juan-jos%C3%A9-c%C3%A1rdenas-garc%C3%ADa-30110317b/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i> </a></li>
+        </ul>
+    </div>
 
 <!-- PASATIEMPOS -->
-    <div class="pasatiempos seccion" id="pasatiempos">
-
+    <div class="pasatiempos seccion" id="pasatiempos">         
+        <h2>Pasatiempos</h2>
+        <div class="grid">
+            <div class="caja">
+                <i class="fa-solid fa-graduation-cap iconos-cuerpo"></i>
+                <p>Aprender</p>
+            </div>
+            <div class="caja">
+                <i class="fa-solid fa-gamepad iconos-cuerpo"></i>
+                <p>Videojuegos</p>
+            </div>
+            <div class="caja">
+                <i class="fa-solid fa-book iconos-cuerpo"></i>
+                <p>Leer</p>
+            </div>
+            <div class="caja">
+                <i class="fa-solid fa-dumbbell iconos-cuerpo"></i>
+                <p>Deportes</p>
+            </div>
+        </div>
     </div>
 
 <!-- FORMACIÓN -->
     <div class="formacion seccion" id="formacion">
-
+        <h2>Formación</h2>
+        <div class="grid">
+            <div class="caja-grande">
+                <div class="caja sena">
+                    <img src="/imagenes/iconos/Sena_Colombia_logo.svg.png" alt="Logo SENA" class="icono-formacion">
+                    <p>SENA</p>
+                </div>
+                <h3>En curso</h3>
+                <p id="texto-sena">Analisis y desarrollo de sistemas de información</p>
+            </div>
+            <div class="caja-grande">
+                <div class="caja">
+                    <img src="/imagenes/iconos/platzi.png" alt="Logo Platzi" class="icono-formacion">
+                    <p>Platzi</p>
+                </div>
+                <h3>En curso</h3>
+            </div>
+            <div class="caja-grande">
+                <div class="caja">
+                    <img src="/imagenes/iconos/alura.png" alt="Logo Alura" class="icono-formacion">
+                    <p>Alura</p>
+                </div>
+                <h3>En curso</h3>
+            </div>
+            <div class="caja-grande">
+                <div class="caja">
+                    <img src="/imagenes/iconos/misiontic.png" alt="Logo MisionTic" class="icono-formacion">
+                    <p>MisiónTic</p>
+                </div>
+                <h3>En curso</h3>
+            </div>
+        </div>
     </div>
 
 <!-- EXPERIENCIA -->
     <div class="experiencia seccion" id="experiencia">
-
+        <h2>Experiencia</h2>
+        <div class="caja-experiencia">
+            <img src="/imagenes/encriptador.png" alt="Encriptador" class="img-experiencia">
+            <div class="contenido-experiencia">
+                <h3>Encriptador</h3>
+                <p>Con este programa podrás encriptar y desencriptar mensajes secretos</p>
+                <div class="iconos-experiencia">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="caja-botones-enxperiencia">
+                    <a href="https://github.com/programa-jota/encriptador" target="_blank" class="botones-experiencia">Repositorio</a>
+                    <a href="https://programa-jota.github.io/encriptador/" target="_blank" class="botones-experiencia">¡Pruebalo!</a>
+                </div>
+            </div>
+        </div>
+        <div class="caja-experiencia">
+            <img src="/imagenes/ahorcado.png" alt="Ahorcado" class="img-experiencia">
+            <div class="contenido-experiencia">
+                <h3>Ahorcado</h3>
+                <p>Pasa una tarde aburrida con este pequeño juego de ahorcado</p>
+                <div class="iconos-experiencia">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="caja-botones-enxperiencia">
+                    <a href="https://github.com/programa-jota/ahorcado" target="_blank" class="botones-experiencia">Repositorio</a>
+                    <a href="https://programa-jota.github.io/ahorcado/" target="_blank" class="botones-experiencia">¡Pruebalo!</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 <!-- CONTACTO -->
     <div class="contacto seccion" id="contacto">
-
+        <h2>Contacto</h2>
+        <div class="caja-contacto">
+            <div class="caja-img-contacto">
+                <img src="/imagenes/fotos/juanjo3-removebg-preview.png" alt="Foto Juan Jose" class="img-contacto">
+            </div>
+            <div class="caja-contenido-contacto">
+                <p>Ponte en contacto conmigo para poder trabajar juntos. 
+                <br>
+                <br>
+                Responderé lo mas pronto posible</p>
+                <form action="#" class="form">
+                    <input type="text" name="Nombre" id="nombre" placeholder="Nombre" class="input-form">
+                    <input type="email" name="Email" id="email" placeholder="Email" class="input-form">
+                    <input type="text" name="Asunto" id="asunto" placeholder="Asunto" class="input-form">
+                    <textarea name="Mensaje" id="mensaje" cols="30" rows="10" class="input-form">Háblame de tu proyecto</textarea>
+                    <input type="submit" class="boton">
+                </form>
+            </div>
+        </div>
     </div>
 
 <!-- PIE DE PAGINA-->
     <footer>
-
+        <h4>Creado por: Code Jota</h4>
     </footer>
 
 </body>

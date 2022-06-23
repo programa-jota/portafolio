@@ -1,0 +1,57 @@
+.experiencia{
+    background: var(--blanco);  
+}
+.caja-experiencia{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.caja-experiencia img{
+    width: 500px;
+    border-radius: 5px;
+}
+.contenido-experiencia{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.contenido-experiencia p{
+    padding-top: 10px;
+
+}
+
+.caja-botones-enxperiencia{
+    padding-top: 
+    40px;
+}
+
+.botones-experiencia{
+    display: inline-block;
+    background: var(--naranja);
+    padding: 7px;
+    color: var(--azul);
+    font-size: 1.3;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.botones-experiencia:hover{
+    transform: translateY(-3px) scale(1.05);
+    transition: 0.2s;
+    background: var(--azul);
+    padding: 7px;
+    color: var(--blanco);
+    font-size: 1.3;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.iconos-experiencia{
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 1.3rem;
+    color: var(--gris);
+}
+
